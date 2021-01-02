@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+
+}
+header{
+    background-color:darkslateblue;
+    min-height: 70px;
+    padding: 10px;
+    border-bottom: 3px solid gold;
+   
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header a:hover{
+    background-color: gold;
+    
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 2px 4px;
+}
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 0;
+}
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 10px;
+}
+header nav{
+    float: right;
+    padding: 20px 0 0 0;
+    font-weight: 700;
+}
+header .highlight {
+    color: rgb(60, 241, 75);
+}
+#showcase{
+    min-height: 400px;
+    background: url(image/tt.jpg) no-repeat;
+    background-position: center;
+    background-size:cover;
+    color:rgb(60, 241, 75)
+}
+#showcase h2{
+    text-align: center;
+    margin: 100px auto 0 auto;
+}
+#showcase p{
+    text-align: center;
+}
+#newsletter{
+    background-color: rosybrown;
+    padding: 15px;
+}
+#newsletter h3{
+    float: left;
+   
+}
+#newsletter form{
+    float: right;
+    margin-top: 20px;
+}
+#newsletter form input[type=email]{
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin: 0 10px 0 0;
+}
+form button{
+    padding: 5px;
+    background-color:orangered;
+    font-weight: 700;
+    border: 1px solid gold;
+    border-radius: 4px;
+}
+#box{
+    display: flex;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.boxes{
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+#box img{
+    width: 20%;
+}
+footer{
+    background-color: rgb(165, 83, 25);
+    color: white;
+    padding:10px 0;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 600;
+
+}
+.address{
+    margin: 0 auto 0 50px;
+}
+.address a {
+    text-decoration: none;
+}
+.address ul{
+    list-style-type: none;
+    
+    margin: 0;
+    padding: 0;
+}
+#sidebar{
+    font-weight: 700;
+    background-color: chocolate;
+    width: 100%;
+    margin: 200px auto 0 auto;
+    overflow: hidden;
+}
+.quiz{
+    display: block;
+    
+}
+#myFunction {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #my {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
