@@ -138,16 +138,144 @@ footer{
     display: block;
     
 }
-#myFunction {
+
+  
+  #a {
     width: 70%;
-    
     padding: 10px 0;
     text-align: center;
     display: none;
   }
-  #my {
+  #b {
     width: 10%;
     padding: 10px 0;
     text-align: center;
     display: none;
+  }
+  #c {
+    width: 18%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #d {
+    width:  18%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #e {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #f {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #g {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #h {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #i {
+    width: 25%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #j {
+    width: 25%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #k {
+    width: 37%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #l {
+    width: 25%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #m {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #n {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #o {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #p {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #q {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #r {
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #s {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #t {
+    width: 10%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #u {
+    width: 20%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #v {
+    width: 30%;
+    padding: 10px 0;
+    text-align: center;
+    display: none;
+  }
+  #mcq-3 .body{
+      margin: 100px 0;
+      padding: 0;
+  }
+  #footer-3{
+      margin-top: 200px;
   }
