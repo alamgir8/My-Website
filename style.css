@@ -140,95 +140,12 @@ footer{
 }
 
   
-  #a {
+  .showhide {
     
     padding: 10px 0;
     display: none;
   }
-  #b {
-    padding: 10px 0;
-    display: none;
-  }
-  #c {
-    padding: 10px 0;
-    display: none;
-  }
-  #d {
-    padding: 10px 0;
-    display: none;
-  }
-  #e {
-    padding: 10px 0;
-    display: none;
-  }
-  #f {
-    padding: 10px 0;
-    display: none;
-  }
-  #g {
-    padding: 10px 0;
-    display: none;
-  }
-  #h {
-    padding: 10px 0;
-    display: none;
-  }
-  #i {
-    padding: 10px 0;
-    display: none;
-  }
-  #j {
-    padding: 10px 0;
-    display: none;
-  }
-  #k {
-    padding: 10px 0;
-    display: none;
-  }
-  #l {
-    padding: 10px 0;
-    display: none;
-  }
-  #m {
-    padding: 10px 0;
-    display: none;
-  }
-  #n {
-    padding: 10px 0;
-    display: none;
-  }
-  #o {
-    padding: 10px 0;
-    display: none;
-  }
-  #p {
-    padding: 10px 0;
-    display: none;
-  }
-  #q {
-    padding: 10px 0;
-    display: none;
-  }
-  #r {
-    padding: 10px 0;
-    display: none;
-  }
-  #s {
-    padding: 10px 0;
-    display: none;
-  }
-  #t {
-    padding: 10px 0;
-    display: none;
-  }
-  #u {
-    padding: 10px 0;
-    display: none;
-  }
-  #v {
-    padding: 10px 0;
-    display: none;
-  }
+  
   #mcq-3 .body{
       margin: 100px 0;
       padding: 0;
