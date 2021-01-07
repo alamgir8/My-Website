@@ -382,6 +382,42 @@
             <div id="t" class="showhide">This is the language that website understands</div>
         </div>
 
+        <div class="container"> 
+          <h3>21. Who is making the Web standards?</h3>
+          <label for="" class="quiz">
+              <input type="radio" name="html">  Goggle
+          </label>
+          <label for="" class="quiz">
+              <input type="radio" name="html">  Mozila
+          </label>
+          <label for="" class="quiz">
+              <input type="radio" name="html">  Firefox
+          </label>
+          <label for="" class="quiz">
+              <input type="radio" name="html">  The World Wide Web Consortium
+          </label><br>
+          <button onclick="showme19()">Show Answer</button>
+          <div id="u" class="showhide">The World Wide Web Consortium</div>
+      </div>
+
+      <div class="container"> 
+        <h3>22. Inline elements are normally displayed without starting a new line.</h3>
+        <label for="" class="quiz">
+            <input type="radio" name="html">  True
+        </label>
+        <label for="" class="quiz">
+            <input type="radio" name="html">  False
+        </label>
+        <label for="" class="quiz">
+            <input type="radio" name="html">  Maybe not
+        </label>
+        <label for="" class="quiz">
+            <input type="radio" name="html">  Above All
+        </label><br>
+        <button onclick="showme19()">Show Answer</button>
+        <div id="v" class="showhide">True</div>
+    </div>
+
         
     <footer id="footer-3">
         <p>All Reserved and Copyrights &copy; By Alamgir Hossain</p>
@@ -545,6 +581,22 @@
     };
     function showme19() {
       var x = document.getElementById("t");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme19() {
+      var x = document.getElementById("u");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme19() {
+      var x = document.getElementById("v");
       if (x.style.display === "none") {
         x.style.display = "block";
       } else {
