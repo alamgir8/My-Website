@@ -4,80 +4,112 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>My First Website</title>
+    <title>Alamgir Hossain|Portfolio</title>
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1><span class="highlight"> My</span> Personal Website</h1>
+        <div class="container nav">
+            <div id="branding" >
+                <h1><span class="highlight-1"> My</span> Personal Website</h1>
             </div>
-            <nav>
-                <ul>
-                    <li ><a href="#" class="highlight">Home</a></li>
-                    <li ><a href="#box">About Us</a></li>
-                    <li><a href="Mcq.html">Services</a></li>
-                    <li><a href="#sidebar">Contact</a></li>
-                </ul>
-            </nav>
+            <div class="navbar" >
+                <nav>
+                    <a href="#" class="highlight">Home</a>
+                    <a href="index.html">About Me</a>
+                     <div class="dropdown">
+                        <button class="dropbtn">Services 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                          <a href="mcq-1.html">Module One</a>
+                          <a href="mcq-2.html">Module Two</a>
+                          <a href="mcq-3.html">Module Three</a>
+                          <a href="mcq-4.html">Module Four</a>
+                          <a href="#">Module Five</a>
+                        </div>
+                      </div> 
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </div>
     </header>
     <section id="showcase">
         <div class="container">
-            <h2>This Is My Personal Portafolio</h2>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio et ea unde doloremque quaerat praesentium maiores omnis excepturi alias magnam? Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <h2>Welcome To My Personal Portafolio</h2>
+             <p>Hello my name is Alamgir Hossain. I want to be a Professional web developer. Now I learning basic things of html & css. Actually I begin my journey to be a Professional Web Developer. So that end of this learning process I can be called myself as a Professional Web Developer.</p>
         </div>
     </section>
     <section id="newsletter">
         <div class="container" >
-            <h3>Subscribe To Our Channel</h3>
-            <form action="">
+            <h3 class="newsletter-header">Subscribe To Our Channel</h3>
+            <form class="subscrib-form" action="">
                 <input type="email" placeholder="please inter your email...." required>
-                <button type="submit">Subscribe</button>
+                <button class="form-button" type="submit">Subscribe</button>
             </form>
         </div>
     </section>
 
     <section id="box">
-        <div class="container boxes">
-            <img src="image/html5.png" alt="">
-            <h4>HTML5</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam doloremque tenetur quisquam! Tempore quas incidunt accusantium perferendis rerum sint eum?</p>
-        </div>
-        <div class="container boxes">
-            <img src="image/css3.jpg" alt="">
-            <h4>CSS3</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto est nobis veritatis rerum illum aliquid. Placeat, magnam est. Reiciendis, ea.</p>
-        </div>
-        <div class="container boxes">
-            <img src="image/gd.jpg" alt="">
-            <h4>Grapic Design</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente veritatis aut provident atque soluta possimus temporibus saepe inventore nesciunt in?</p>
+        <div class="container">
+            <h2 class="box-header"><span class="highlight-1 ">Know About Basic Web-Developer</span></h2>
+
+            <div class="boxes box-1">
+                <img src="image/html5.png" alt="">
+                <h4>HTML5</h4>
+                <p>HTML is the standard markup language for Web pages. With HTML you can create your own Website. HTML is easy to learn - You will enjoy it!</p>
+            </div>
+
+            <div class="boxes box-2">
+                <img src="image/css3.jpg" alt="">
+                <h4>CSS3</h4>
+                <p>CSS is the language we use to style an HTML document. CSS describes how HTML elements should be displayed. This tutorial will teach you CSS from basic to advanced.</p>
+            </div>
+
+            <div class="boxes box-3">
+                <img src="image/js.png" alt="">
+                <h4>Javascripts</h4>
+                <p>JavaScript is the world's most popular programming language. JavaScript is the programming language of the Web. JavaScript is easy to learn. This tutorial will teach you JavaScript from basic to advanced.</p>
+            </div>
         </div>
     </section>
-    <aside id="sidebar">
-        <div class="address">
-            <h3>Address:</h3>
+
+    <section id="contact">
+        <div class="container">
+            <div class="half-width contact-area">
+                <h3>Our Head Office:</h3>
+                <p><i style="font-size:20px" class="fa">&#xf015;</i> House/Holding: Uttara, Sector-13, Dhaka-1230.</p>
+                <p><i style="font-size:20px" class="fa">&#xf0e0;</i> Email:<a href="#"> ahossain38900@gmail.com</a></p>
+                <p><i style="font-size:20px" class="fa">&#xf082;</i> Facebook:<a href="#"> facebook.com</a></p>
+                <p><i style="font-size:20px" class="fa">&#xf081;</i> Twiter:<a href="#"> twiter.com</a></p>
+                <p> <i style="font-size:20px" class="fa">&#xf16a;</i> Youtube:<a href="#"> youtube.com</a></p>
+                <p><i style="font-size:20px" class="fa">&#xf095;</i> Phone:<a href="#"> 01957930032</a></p>
+
+            </div>
         </div>
-        <div class="address">
-            <ul>
-                <li>
-                    
-                    House/Holding: Uttara, Sector-13,Dhaka-1230.
-                </li>
-                <li>
-                    Email: <a href="">ahossain38900@gmail.com</a> 
-                </li>
-                <li>
-                    Social Media: <a href="">www.facebook.com</a>
-                </li>
-                <li>
-                    Phone: <a href="">01957930032</a>
-                </li>
-            </ul>
+
+        <div class="half-width massage-area">
+            <h3>Ready To Get Started?</h3>
+            <form action="">
+                <input type="text" placeholder="please inter your name....."><br>
+                <input type="email" placeholder="please inter your email...."><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea><br>
+                <button class="massage-button">Send Massage</button>
+            </form>
         </div>
-    </aside>
+    </section>
+    
+
     
     <footer>
         <p>All Reserved and Copyrights &copy; By Alamgir Hossain</p>
