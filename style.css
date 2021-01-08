@@ -21,6 +21,7 @@ section{
   overflow: hidden;
 }
 header{
+    position: fixed;
     float: left;
     display: inline;
     padding: 0 20px 0 0;
@@ -29,6 +30,10 @@ header{
     color: white;
     border-bottom: 2px solid gold;
    
+}
+
+.mcq-header{
+  margin-top: 100px;
 }
 
 .navbar a{
@@ -47,7 +52,8 @@ header{
 }
 
 .dropdown .dropbtn {
-  font-size: 16px;  
+  font-family: 'Lobster', cursive;
+  font-size: 15px;  
   border: none;
   outline: none;
   color: white;
@@ -63,6 +69,8 @@ header{
 .dropdown-content {
   display: none;
   position: absolute;
+ 
+  
 
 }
 
@@ -116,7 +124,7 @@ header .highlight {
 }
 #showcase h2{
     text-align: center;
-    margin: 150px auto 0 auto;
+    margin: 200px auto 0 auto;
 }
 #showcase p{
     text-align: center;
