@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>MCQ | Eight Module</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight-1"> My</span> Personal Website</h1>
+            </div>
+            <nav class="navbar">
+                  <a href="home.html" class="highlight">Home</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+        <div class="container mcq-header">
+            <h3> 1. The default position of an HTML element.</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  absolute
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  static
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  relative
+            </label>
+           <br>
+            <button onclick="showme()">Show Answer</button>
+            <div id="a" class="showhide">static</div>
+        </div>
+
+
+        <div class="container">
+            <h3>2. Select the most appropriate CSS declaration(s) to set an element to absolute positioning in the top right corner.</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  position:top right;
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  position:absolute; top:0; right:0;
+            </label>
+            <label for="" class="quiz" >
+                <input type="radio" name="html"> position:absolute top:0; left:0;
+            </label><br>
+            <button onclick="showme1()">Show Answer</button>
+            <div id="b" class="showhide">position:absolute:; top:0; right:0;</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>3. Which of the following CSS Property specifies the top offset of a positioned element?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  top
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  up
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  fix
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  reverse
+            </label><br>
+            <button onclick="showme2()">Show Answer</button>
+            <div id="c" class="showhide">top</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>4. Both relative and fixed positioned elements look for to see if their parent has a declared position first, if not it will apply itself to the body.</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  True
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  False
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  None of above
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  Maybe
+            </label><br>
+            <button onclick="showme3()">Show Answer</button>
+            <div id="d" class="showhide">False</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>5. Which of the following transform property values defines a translation, using only the value for the X-axis?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html"> translate(x)
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  translateZ(x)
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  translateY(x)
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  translateX(x)
+            </label><br>
+            <button onclick="showme4()">Show Answer</button>
+            <div id="e" class="showhide"> translateX(x)</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>6. What model includes margin, border, padding, and content?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS box model
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS template layout model
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS flexbox model
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS grid layout model
+            </label><br>
+            <button onclick="showme5()">Show Answer</button>
+            <div id="f" class="showhide">CSS box model</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>7. The CSS display: flex sets the flexbox as _____element.</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  A block level
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  An inline
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  An invisible
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  A null
+            </label><br>
+            <button onclick="showme6()">Show Answer</button>
+            <div id="g" class="showhide">A block level</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>8. What is true of block and inline elements?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  By default block element are the same height and width as the content container between their tags; inline element span enitre width of its container
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">   By default inline element are the same height and width as the content container between their tags; inline block span enitre width of its container
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  None of Above
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  Above all
+            </label><br>
+            <button onclick="showme7()">Show Answer</button>
+            <div id="h" class="showhide">By default inline element are the same height and width as the content container between their tags; inline block span enitre width of its container</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>9. Height and width can not be set in_____</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  block element
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  inline-block element
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  inline element
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  None of above
+            </label><br>
+            <button onclick="showme8()">Show Answer</button>
+            <div id="i" class="showhide">inline element</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>10. Which one is not a way to apply CSS style?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  inline CSS
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  external CSS
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  internal CSS
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  flex CSS
+            </label><br>
+            <button onclick="showme9()">Show Answer</button>
+            <div id="j" class="showhide">flex CSS</div>
+        </div>
+
+
+        <div class="container"> 
+            <h3>11. Which CSS Version started using Media Query?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS1
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS2
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS2.2
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  CSS3
+            </label><br>
+            <button onclick="showme10()">Show Answer</button>
+            <div id="k" class="showhide">CSS3</div>
+        </div>
+        
+        
+        <div class="container"> 
+            <h3>12. Which structure is true in terms of using Media Query?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  @media (max-widht:992px){.class{background-color:yellow;}}
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">   (@media (max-widht:992px){.class{background-color:yellow;}})
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">   @media max-widht:992px {.class{background-color:yellow;}}
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">   @media {max-widht:992px}{.class{background-color:yellow;}}
+            </label><br>
+            <button onclick="showme11()">Show Answer</button>
+            <div id="l" class="showhide"> @media (max-widht:992px){.class{background-color:yellow;}}</div>
+        </div>
+
+        <div class="container"> 
+            <h3>13. Which one is the Web Icons Fonts?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font amazing
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font stunning
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font awesome
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font animation
+            </label><br>
+            <button onclick="showme12()">Show Answer</button>
+            <div id="m" class="showhide">font awesome</div>
+        </div>
+
+        <div class="container"> 
+            <h3>14. Which property we can use to define The Font Awesome Icons Size?  </h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font-family
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font-width
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font-size
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  font-style
+            </label><br>
+            <button onclick="showme13()">Show Answer</button>
+            <div id="n" class="showhide">font-size</div>
+        </div>
+
+        <div class="container"> 
+            <h3>15. ________ positioning makes an element appear in the same place relative to the browser window even when scrolling occurs.</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  absolute
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  relative
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  static
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  fixed
+            </label><br>
+            <button onclick="showme14()">Show Answer</button>
+            <div id="o" class="showhide"> fixed</div>
+        </div>
+
+        <div class="container"> 
+            <h3>16. What does it mean by inline css?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  Apply css in html tag
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  Apply css in external file
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  Apply css in head tag
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  None of Above
+            </label><br>
+            <button onclick="showme15()">Show Answer</button>
+            <div id="p" class="showhide">Apply css in html tag</div>
+        </div>
+
+        <div class="container"> 
+            <h3>17. What is the default viewport width size for Apple devices?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  80px
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  580px
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  480px
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  980px
+            </label><br>
+            <button onclick="showme16()">Show Answer</button>
+            <div id="q" class="showhide">980px</div>
+        </div>
+
+        <div class="container"> 
+            <h3>18. You have a flexbox container with items set in a row. You want the items to be displayed in the opposite order in which they appear currently. Which code do you use?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  flex-direction: column-reverse
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  flex-direction: row-reverse
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  flex-direction: column-order-reverse
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  flex-direction: row-order-reverse
+            </label><br>
+            <button onclick="showme17()">Show Answer</button>
+            <div id="r" class="showhide">flex-direction: row-reverse</div>
+        </div>
+
+        <div class="container"> 
+            <h3>19. Which of the following is flex-direction property values?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  left
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  right
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  column
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  auto
+            </label><br>
+            <button onclick="showme18()">Show Answer</button>
+            <div id="s" class="showhide">column</div>
+        </div>
+
+        <div class="container"> 
+            <h3>20. Which CSS property is used to show dropdown items?</h3>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  display:none;
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  display:block;
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  display:inline;
+            </label>
+            <label for="" class="quiz">
+                <input type="radio" name="html">  display:hidden;
+            </label><br>
+            <button onclick="showme19()">Show Answer</button>
+            <div id="t" class="showhide">display:block;</div>
+        </div>
+
+        
+        
+    </section>
+    <footer id="footer-3">
+        <p>All Reserved and Copyrights &copy; By Alamgir Hossain</p>
+    </footer>
+    
+</body>
+</html>
+<script>
+    function showme() {
+      var x = document.getElementById("a");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+
+    function showme1() {
+      var x = document.getElementById("b");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme2() {
+      var x = document.getElementById("c");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme3() {
+      var x = document.getElementById("d");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme4() {
+      var x = document.getElementById("e");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme5() {
+      var x = document.getElementById("f");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme6() {
+      var x = document.getElementById("g");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme7() {
+      var x = document.getElementById("h");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme8() {
+      var x = document.getElementById("i");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme9() {
+      var x = document.getElementById("j");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme10() {
+      var x = document.getElementById("k");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme11() {
+      var x = document.getElementById("l");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme12() {
+      var x = document.getElementById("m");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme13() {
+      var x = document.getElementById("n");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme14() {
+      var x = document.getElementById("o");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme15() {
+      var x = document.getElementById("p");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme16() {
+      var x = document.getElementById("q");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme17() {
+      var x = document.getElementById("r");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme18() {
+      var x = document.getElementById("s");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme19() {
+      var x = document.getElementById("t");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme20() {
+      var x = document.getElementById("u");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme21() {
+      var x = document.getElementById("v");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+    function showme21() {
+      var x = document.getElementById("w");
+      if (x.style.display === "none") {
+        x.style.display = "block";
+      } else {
+        x.style.display = "none";
+      }
+    };
+
+    </script>
