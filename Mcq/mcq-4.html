@@ -15,16 +15,173 @@
                 <h1><span class="highlight-1"> My</span> Personal Website</h1>
             </div>
             <nav class="navbar">
-              
-              <a href="/home.html" class="highlight">Home</a>
-                    
-                    
-                    
-                
+              <a href="/home.html" class="highlight">Home</a>    
             </nav>
         </div>
     </header>
+
+    <section >
+      <div class="container grid-container">
+        <div class="box1 grid-box">
+          <h3>What is CSS Position?</h3>
+          <p>Web এ একটি HTML Element এর Position কোথায় হবে তা নির্ধারণের জন্যে CSS Position Property ব্যবহৃত হয়। আরো সহজ ভাবে বলা যায় একটি HTML Element এর Position সেট করার জন্য CSS Position Property ব্যবহার করা হয়।</p>
+       
+    
+      
+       
+          <h3>CSS এ Position Property's Values:</h3>
+          <ul>
+            <li>Static</li>
+            <li>Absolute</li>
+            <li>Relative</li>
+            <li>Fixed</li>
+            <li>Sticky</li>
+          </ul>
+        </div>
+     
+    
+        <div class="box2 grid-box">
+          <h3>CSS এ Position Property's Global Values:</h3>
+          <ul>
+            <li>Inherit</li>
+            <li>Initial</li>
+            <li>Unset</li>
+          </ul>
+          <p>উপরের Position Property ব্যবহারের পর HTML Element গুলোর পজিশন ঠিক করে দেওয়ার জন্য আপনাকে top, bottom, left এবং right property গুলোর যেটা দরকার সেটি ব্যবহার করতে হবে।
+            আর আপনি যদি প্রথমেই position প্রোপার্টি না সেট করে দেন তাহলে এই প্রোপার্টিসমূহ ঠিকমত কাজ করবে না। কারণ, এই প্রোপার্টিগুলো position প্রোপার্টির ভ্যালুর উপরে নির্ভরশীল।</p>
+        </div>
+    
+     
+        <div class="box4 grid-box">
+          <h3>Position: static;</h3>
+          <p>ডিফল্টভাবে HTML Element সমূহের পজিশন static থাকে। আর তখন top, right, bottom এবং left প্রোপার্টির ভ্যালু সমূহ কাজ করেনা। অর্থাৎ position: static; প্রোপার্টি সংশ্লিষ্ট HTML Element তার নিজের পজিশন পরিবর্তন করতে পারে না। এটি সব সময় পেজের স্বাভাবিক ধারা অনুযায়ী পজিশন পেয়ে থাকে।</p>
+          <p>ব্যাখ্যা: উপরের উদাহরণে সিলেক্টর .static-তে position: static; ব্যবহার করায় ইহা পেজের স্বাভাবিক ধারা অনুযায়ী পজিশন পেয়েছে।</p>
+        </div>
+      
+      
+        <div class="box5 grid-box">
+          <h3>Position: relative;</h3>
+          <p>position:relative; ও static এর মতই পার্থক্য হচ্ছে এখানে আপনি চাইলে top, left, bottom, right এবং z-index ব্যবহার করে HTML Element কে তার অবস্থান থেকে সরাতে পারবেন। এমনকি অন্য একটা element এর উপর ও বসাতে পারবেন। relative পজিশন করলে এলিমেন্ট তার স্বীয় অবস্থান সাপেক্ষে থাকে।</p>
+        </div>
+
+        <div class="box6 grid-box">
+          <h3>Position: absolute;</h3>
+          <p>Position: absolute ও static এর মতই, পার্থক্য হচ্ছে এখানে HTML Element তার নিকটবর্তী পূর্বসুরী(ancestor/parent) Element এর অবস্থানের সাপেক্ষে নিজের অবস্থানের পরিবর্তন ঘটে। এক্ষেত্রে , যদি Absolute পজিশনে থাকা এলিমেন্টের কোনো পূর্বসুরী না থকে তাহলে ইহা ডকুমেন্ট বডি(body) কে পূর্বসুরী ধরে নিজের অবস্থানের পরিবর্তন ঘটাতে পারে এবং পেজ স্ক্রলিং এর সাথে সাথে নড়া চড়া করে। এবং সৃষ্ট ফাঁকা অংশ পার্শ্ববর্তী অন্য HTML Element এসে পূরণ করে।</p>
+        </div>
+
+        <div class="box7 grid-box">
+          <h3>Position: fixed;</h3>
+          <p>Position: fixed; যুক্ত HTML Element গুলো viewport এর সাপেক্ষে নিজের পজিশনের পরিবর্তন ঘটাতে পারে। অর্থ্যাৎ পেজ স্ক্রল করলেও ইহা নিজের অবস্থান থেকে এক বিন্দুও নড়ে না।</p>
+        </div>
+
+        <div class="box8 grid-box">
+          <h3>Position: sticky;</h3>
+          <p>Position: sticky; যুক্ত HTML Element ইউজারের পেজ স্ক্রলের সাপেক্ষে নিজের অবস্থানের পরিবর্তন হয়। তা ছাড়া স্ক্রল পজিশনের উপর ভিত্তি করে position: sticky একইসাথে Relative এবং Fixed পজিশনের মধ্যে toggle করে।</p>
+        </div>
+
+        <div class="box9 grid-box">
+          <h3>এবার চলুন এক নজরে CSS Position Property এর সাথে কাজ করে এমন Property সমূহ সম্পর্কে জানা যাক:</h3>
+          <ul>
+            <li>bottom</li>
+            <li>top</li>
+            <li>clip</li>
+            <li>right</li>
+            <li>left</li>
+            <li>z-index</li>
+          </ul>
+          <h3>CSS Bottom Property:</h3>
+          <p>CSS এ position:absolute এ থাকা HTML Element এর জন্য bottom Property একটি এলিমেন্টের bottom এর কিনারার একটি ইউনিটের উপরে/নিচে নিকটতম ancestor/parent সেট করে।</p>
+          <h4>পরামর্শঃ</h4>
+          <ul>
+            <li>যদি একটি absolute পজিশনে থাকা এলিমেন্টের কোনো positioned ancestors না থাকে তাহলে এটি ডকুমেন্টের পুরো বডি ব্যবহার করে এবং পেজে এটি স্ক্রলিং তৈরি করে।</li>
+            <li>শুধু স্ট্যাটিক ছাড়া একটি “positioned” এলিমেন্ট যেকোনো পজিশনে থাকতে পারে।</li>
+            <li>relative পজিশন এলিমেন্টের জন্য bottom প্রোপার্টিটি একটি এলিমেন্টের bottom এর কিনারার একটি ইউনিটের উপরে/নিচে নরমাল পজিশনকে সেট করে।</li>
+            <li>যদি “position:static” হয়, তাহলে bottom প্রোপার্টির কোনো ইফেক্ট থাকে না।</li>
+          </ul>
+        </div>
+
+        <div class="box10 grid-box">
+          <h4>CSS Bottom Property's Values:</h4>
+          <ul>
+            <li>auto– bottom এর কিনারার পজিশন ব্রাউজারে গননা(calculate) করে। এটি ডিফল্ট।</li>
+            <li>length– bottom এর কিনারার পজিশন পিক্সেল,সেন্টিমিটার ইত্যাদিতে প্রকাশ করা হয়। নেগেটিভ ভ্যালুও গ্রহনযোগ্য।</li>
+            <li>%-কন্টেইনিং এলিমেন্টের bottom এর কিনারার পজিশন শতকরায়(%) সেট করুন।নেগেটিভ ভ্যালুও গ্রহনযোগ্য।</li>
+            <li>initial– সিএসএস প্রোপার্টির ডিফল্ট ভ্যালু সেট করে।</li>
+            <li>inherit– এই প্রোপার্টির ভ্যালু প্যারেন্ট এলিমেন্ট থেকে উত্তরাধিকার সূত্রে পায়।</li>
+          </ul>
+        </div>
+        <div class="box11 grid-box">
+          <h3>CSS Clip Property</h3>
+          <p>যখন কোনো Image Containing Element থেকে বড় হয় তবে তা clip প্রোপার্টির মাধ্যমে ছোট করে Containing Element এর আকার করা যায়। clip প্রোপার্টির চারটি কো-অর্ডিনেট(coordinates) থাকে যার মধ্যে সবগুলো কো-অর্ডিনেট(coordinates) ই উপরের বাম কোণ থেকে এলিমেন্টকে ক্লিপড করে। এক্ষেত্রে মনে রাখতে হবে “overflow:visible” হয় তাহলে clip প্রোপার্টি কাজ করবে না।</p>
+          <h4>Clip Property's Values:</h4>
+          <ul>
+            <li>auto– এটি ডিফল্ট এক্ষেত্রে কোন ক্লিপ যুক্ত হবে না।</li>
+            <li>rect– এলিমেন্ট ক্লিপ হবে। ভ্যালিড ভ্যালুগুলো হলোঃ rect (top, right, bottom, left)</li>
+            <li>initial– সিএসএস প্রোপার্টির ডিফল্ট ভ্যালু সেট করে।</li>
+            <li>inherit– এই প্রোপার্টির ভ্যালু প্যারেন্ট এলিমেন্ট থেকে উত্তরাধিকার সূত্রে পায়।</li>
+          </ul>
+        </div>
+        <div class="box12 grid-box"> 
+          <h3>CSS left Property</h3>
+          <p>absolute পজিশনের ক্ষেত্রে একটি এলিমেন্ট যে বক্সের মধ্যে থাকে সেই বক্স এবং উক্ত এলিমেন্টের বাম প্রান্তের মধ্যবর্তী দূরত্ব নির্ধারণ করে।</p>
+          <h4>পরামর্শঃ</h4>
+          <ul>
+            <li>যদি absolute পজিশন এলিমেন্টে কোনো পজিশন encestor(পূর্বপুরুষ) না থাকে,এটি ডকুমেন্ট বডি এবং পেইজ স্ক্রলিংয়ের সাথে ব্যবহৃত হয়।</li>
+            <li>একটি “পজিশন” এলিমেন্ট এমন একটি এলিমেন্ট যার পজিশন স্ট্যাটিক ছাড়া যেকোনো কিছু ই হতে পারে।</li>
+            <li>রিলেটিভ পজিশন এলিমেন্টে left প্রোপার্টি যুক্ত করা হয় একটি এলিমেন্টের বাম প্রান্তে,তবে এটি ডানে অথবা বামে উভয়দিকেই থাকে।</li>
+            <li>যদি “Position: Static” দেওয়া হয়,তবে left প্রোপার্টির কোনো প্রতিক্রিয়া হবেনা।</li>
+          </ul>
+          <h4>left Property's Values:</h4>
+          <ul>
+            <li>auto– ব্রাউজারটি বামের কিনারের অবস্থানকে হিসাব করে। এটি ডিফল্ট আকারে থাকে।</li>
+            <li>length– বামপাশে কিনারের অবস্থানকে px, cm ইত্যাদি এককে নির্ধারন করে। নেগেটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>%-বামপাশে কিনার অবস্থানে % এলিমেন্টকে বুঝানো হয়। নেগিটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>initial– সিএসএস প্রোপার্টির ডিফল্ট ভ্যালু সেট করে।</li>
+            <li>inherit– এই প্রোপার্টির ভ্যালু প্যারেন্ট এলিমেন্ট থেকে উত্তরাধিকার সূত্রে পায়।</li>
+          </ul>
+        </div>
+        <div class="box13 grid-box">
+          <h3>CSS Right Property</h3>
+          <p>absolute পজিশনের ক্ষেত্রে একটি এলিমেন্ট যে বক্সের মধ্যে থাকে সেই বক্স এবং উক্ত এলিমেন্টের ডান প্রান্তের মধ্যবর্তী দূরত্ব নির্ধারণ করে।</p>
+          <h4>পরামর্শঃ</h4>
+          <ul>
+            <li>যদি একটি absolute পজিশনের এলিমেন্টের কোনো ancestors পজিশন না থাকে তাহলে এটি ডকুমেন্ট বডি ব্যবহার করে এবং পেজকে স্ক্রোলিং করে।</li>
+            <li>একটি “positioned” এলিমেন্ট স্ট্যাটিক পজিশন গ্রহন করে।</li>
+          </ul>
+          <h4>Right Property's Values:</h4>
+          <ul>
+            <li>auto– ব্রাউজারটি ডান কিনারের অবস্থানকে হিসাব করে। এটি ডিফল্ট আকারে থাকে।</li>
+            <li>length– ডানপাশের কিনারের অবস্থানকে px, cm ইত্যাদি এককে নির্ধারন করে। নেগেটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>%-ডানপাশের কিনার অবস্থানে % এলিমেন্টকে বুঝানো হয়। নেগিটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>initial– সিএসএস প্রোপার্টির ডিফল্ট ভ্যালু সেট করে।</li>
+            <li>inherit– এই প্রোপার্টির ভ্যালু প্যারেন্ট এলিমেন্ট থেকে উত্তরাধিকার সূত্রে পায়।</li>
+          </ul>
+        </div>
+        <div class="box14 grid-box">
+          <h3>CSS Top Property</h3>
+          <p>CSS absolute পজিশনের ক্ষেত্রে একটি এলিমেন্ট যে বক্সের মধ্যে থাকে সেই বক্স এবং উক্ত এলিমেন্টের উপর থেকে দূরত্ব নির্ধারণ করে।</p>
+          <h4>Top প্রোপার্টির ভ্যালু-সমূহ</h4>
+          <ul>
+            <li>auto– ব্রাউজারটি top থেকে হিসাব করে। এটি ডিফল্ট আকারে থাকে।</li>
+            <li>length– top অবস্থানকে px, cm ইত্যাদি এককে নির্ধারন করে। নেগেটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>%-top অবস্থানে % এলিমেন্টকে বুঝানো হয়। নেগিটিভ ভ্যালুও গ্রহনীয়।</li>
+            <li>initial– সিএসএস প্রোপার্টির ডিফল্ট ভ্যালু সেট করে।</li>
+            <li>inherit– এই প্রোপার্টির ভ্যালু প্যারেন্ট এলিমেন্ট থেকে উত্তরাধিকার সূত্রে পায়।</li>
+          </ul>
+        </div>
+        <div class="box15 grid-box">
+          <h3>CSS z-index property</h3>
+          <p>HTML Element সমূহের স্ট্যাক অর্ডার(stack order) নির্ধারণ করার জন্য CSS z-index প্রোপার্টি ব্যবহার করা হয়।</p>
+          <p>একটি এলিমেন্টের ধনাত্মক(+) অথবা ঋনাত্মক(-) স্ট্যাক অর্ডার থাকতে পারে। স্ট্যাক অর্ডারের ভ্যালু যত বেশী হবে সে এলিমেন্টটি তত বেশি সামনে থাকবে। পক্ষান্তরে স্ট্যাক অর্ডারের ভ্যালু যত কম হবে সে এলিমেন্টটি তত বেশি পেছনে থাকবে।</p>
+        </div>
+        <img src="images/position.jpg" alt="">
+      </div>
+    </section>
+
     <section>
+      <div class="container">
+      <h2 class="highlight-1">Some Important MCQ In Fourth & Bonus Module</h2>
+    </div>
         <div class="container mcq-header">
             <h3> 1. Write the appropriate code to apply hover effect on buttons</h3>
             <label for="" class="quiz">
