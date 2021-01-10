@@ -128,7 +128,7 @@ a:hover{
     margin: 100px auto ;
     min-height: 220px;
     text-align:center;
-    background-image: url("images/bg.png");
+    background-image: url("\images/bg.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
